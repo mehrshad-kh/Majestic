@@ -17,7 +17,6 @@ class Client
 public:
     explicit Client(const std::shared_ptr<Channel>& channel) :
         stub_(Majestic::NewStub(channel)) {}
-
     std::vector<uint8_t> retrieveMySalt(const std::string& username);
 
 private:
