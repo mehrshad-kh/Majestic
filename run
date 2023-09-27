@@ -1,0 +1,13 @@
+#!/bin/zsh
+
+current_directory=${PWD##*/}
+build_type='Debug'
+qt_version='6_5_2'
+
+cmake \
+    -S . \
+    -B ../build-${current_directory}-Qt_${qt_version}_for_macOS-${build_type} \
+    -G Ninja \
+    -DCMAKE_BUILD_TYPE=${build_type} \
+    -DCMAKE_PREFIX_PATH=/Users/mehrshadkh./Qt/6.5.2/macos
+    

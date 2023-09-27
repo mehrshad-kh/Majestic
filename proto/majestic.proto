@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service Majestic {
+    rpc RetrieveSalt(MKString) returns (ByteArray) {}
+}
+
+message ByteArray {
+    bytes value = 1;
+}
+
+message MKString {
+    string value = 1;
+}
+
