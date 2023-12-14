@@ -7,7 +7,7 @@ Majestic is a sample GUI client for use with another [sample server](https://git
 I started this project as a means to extend my knowledge in the realm of C++, including the language itself, the Qt framework, CMake, and other extensively used tools and APIs. Through the journey, I also reported a [bug](https://bugreports.qt.io/browse/QTCREATORBUG-29478) in Qt Creator and helped discover [another one](https://bugreports.qt.io/browse/QTCREATORBUG-29450).
 
 ## Demo
-
+![alt test](https://imgur.com/a/VCFwwxx)
 
 ## Prerequisites
 
