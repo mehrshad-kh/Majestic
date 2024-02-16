@@ -25,7 +25,6 @@ void MainWindow::aboutActionTriggered(bool checked)
     about_dialog_->show();
 }
 
-
 void MainWindow::connectSlots()
 {
     connect(about_action_, &QAction::triggered, this, &MainWindow::aboutActionTriggered);
