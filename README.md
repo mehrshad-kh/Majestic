@@ -4,7 +4,7 @@
 
 Majestic is a sample GUI client for use with another [sample server](https://github.com/mehrshad-kh/MajesticServer) using gRPC as its interface. It is written entirely in C++ with the help of Qt Widgets. It also makes extensive use of CMake for build automation.  
 
-I started this project as a means to extend my knowledge in the realm of C++, including the language itself, the Qt framework, CMake, and other extensively used tools and APIs. Through the journey, I also reported a [bug](https://bugreports.qt.io/browse/QTCREATORBUG-29478) in Qt Creator and helped discover [another one](https://bugreports.qt.io/browse/QTCREATORBUG-29450)(more discussions [here][1] and [here][2]).
+I started this project as a means to extend my knowledge in the realm of C++, including the language itself, the Qt framework, CMake, and other extensively used tools and APIs. Through the journey, I also reported a [bug](https://bugreports.qt.io/browse/QTCREATORBUG-29478) in Qt Creator and helped discover [another](https://bugreports.qt.io/browse/QTCREATORBUG-29450) (more discussions [here][1] and [here][2]).
 
 ## Demo
 ![alt test](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYXhwNDhkeGh6eDlvbXYzOHd2NHNqeXBvd24yMGVkZzl3YTY0c3RibCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Lox6BBCeJr8IYotIni/giphy.gif)
